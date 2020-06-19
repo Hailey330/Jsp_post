@@ -58,7 +58,7 @@ public class MemberController extends HttpServlet {
 			return new MemberLoginFormAction();
 		} else if (cmd.equals("loginProc")) {
 			return new MemberLoginProcAction();
-		} 
+		}
 		return null;
 	}
 
